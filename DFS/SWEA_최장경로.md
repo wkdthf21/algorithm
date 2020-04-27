@@ -1,4 +1,4 @@
-```
+```c++
 #include<iostream>
 #include <vector>
 #include <memory.h>
@@ -63,7 +63,7 @@ int main(int argc, char** argv)
         cout << "#" << test_case << " " << maxDist << endl;
 
 	}
-  
+
 	return 0;
 }
 ```
