@@ -87,7 +87,7 @@ class Solution {
             for(int i = 0; i < N; i++){
                 if(m[cur][i] == INF) continue;
                 int temp = dist[cur] + m[cur][i];
-                if(temp < arr[i]){
+                if(temp < dist[i]){
                     dist[i] = temp;
                     pq.offer(i); // 최소 힙에 갱신한 모든 값을 넘겨준다
                 }
