@@ -2,6 +2,16 @@
 ---
 https://leetcode.com/explore/interview/card/top-interview-questions-easy/98/design/562/
 
+
+### Explanation
+---
+
+- stack 기능 + 최소값 얻을 수 있는 기능
+- stack은 LIFO인 특성을 이용해봤을 때
+- 현재 stack의 top에 저장된 min 값과 최근에 들어온 min값을 비교해서
+- 노드마다 min 값을 저장해두면
+- stack의 top에 저장된 min값이 그 stack에서 가장 min값이다.
+
 <br>
 
 ```java
